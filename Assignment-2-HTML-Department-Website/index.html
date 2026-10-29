@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Department of Computer Science | FISAT Engineering College</title>
+  <style>
+    body{font-family:Arial,sans-serif;margin:0;line-height:1.6;color:#222}
+    header{background:#1f3a5f;color:#fff;padding:16px;text-align:center}
+    header img{width:80px}
+    nav{background:#162a45;text-align:center;padding:10px}
+    nav a{color:#f2b632;margin:0 14px;text-decoration:none;font-weight:bold}
+    main{max-width:900px;margin:auto;padding:16px}
+    section{margin-bottom:28px}
+    table{border-collapse:collapse;width:100%}
+    th,td{border:1px solid #999;padding:8px;text-align:left}
+    th{background:#1f3a5f;color:#fff}
+    label{display:block;margin-top:10px}
+    input,select,textarea{width:100%;max-width:400px;padding:6px}
+    footer{background:#162a45;color:#fff;text-align:center;padding:12px}
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIiB2aWV3Qm94PSIwIDAgMTIwIDEyMCI+PGNpcmNsZSBjeD0iNjAiIGN5PSI2MCIgcj0iNTYiIGZpbGw9IiMxZjNhNWYiLz48dGV4dCB4PSI2MCIgeT0iNjgiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIzOCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkNTPC90ZXh0Pjx0ZXh0IHg9IjYwIiB5PSI4OCIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEyIiBmaWxsPSIjZjJiNjMyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5GSVNBVDwvdGV4dD48Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZjJiNjMyIiBzdHJva2Utd2lkdGg9IjMiLz48L3N2Zz4K" alt="Department of Computer Science logo">
+  <h1>Department of Computer Science</h1>
+  <p>FISAT Engineering College</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#programmes">Programmes</a>
+  <a href="#faculty">Faculty</a>
+  <a href="#facilities">Facilities</a>
+  <a href="#enquiry">Enquiry</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<main>
+  <section id="about">
+    <h2>About the Department</h2>
+    <p>The Department of Computer Science was established in <strong>2005</strong>.
+    It offers <em>industry-oriented</em> education in programming, data and networks.</p>
+    <p>Visit the <a href="https://www.fisat.ac.in" target="_blank" rel="noopener">college website</a>
+    or read the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener">MDN HTML guide</a>.</p>
+    <hr>
+  </section>
+
+  <section id="programmes">
+    <h2>Academic Programmes</h2>
+    <h3>Subjects offered (unordered list)</h3>
+    <ul>
+      <li>Programming in C and C++</li>
+      <li>Data Structures and Algorithms</li>
+      <li>Database Management Systems</li>
+      <li>Web Technology</li>
+      <li>Operating Systems</li>
+    </ul>
+    <h3>Semester 1 order of study (ordered list)</h3>
+    <ol>
+      <li>Introduction to Computing</li>
+      <li>Programming Fundamentals</li>
+      <li>Discrete Mathematics</li>
+      <li>Digital Electronics</li>
+      <li>Communication Skills</li>
+    </ol>
+  </section>
+
+  <section id="faculty">
+    <h2>Our Faculty</h2>
+    <table>
+      <caption>Faculty members</caption>
+      <thead>
+        <tr><th>Name</th><th>Designation</th><th>Area of Specialization</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Dr. A. Nair</td><td>Professor and Head</td><td>Machine Learning</td></tr>
+        <tr><td>Dr. B. Menon</td><td>Associate Professor</td><td>Computer Networks</td></tr>
+        <tr><td>Ms. C. Thomas</td><td>Assistant Professor</td><td>Database Systems</td></tr>
+        <tr><td>Mr. D. Kumar</td><td>Assistant Professor</td><td>Web Technologies</td></tr>
+        <tr><td>Ms. E. Joseph</td><td>Assistant Professor</td><td>Cyber Security</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="facilities">
+    <h2>Facilities</h2>
+    <article>
+      <h3>Computer Laboratories</h3>
+      <p>Three labs with 120 systems and high-speed internet.</p>
+    </article>
+    <article>
+      <h3>Department Library</h3>
+      <p>Over 2,000 books, journals and e-resources.</p>
+    </article>
+  </section>
+
+  <section id="enquiry">
+    <h2>Student Enquiry Form</h2>
+    <form action="#" method="post">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+
+      <label for="course">Course Preference</label>
+      <select id="course" name="course">
+        <option>BSc Computer Science</option>
+        <option>BCA</option>
+        <option>MSc Computer Science</option>
+      </select>
+
+      <label for="msg">Message</label>
+      <textarea id="msg" name="msg" rows="3"></textarea>
+
+      <br><br>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Details</h2>
+    <address>
+      Department of Computer Science, FISAT Engineering College<br>
+      Mookkannoor, Angamaly, Ernakulam, Kerala, India<br>
+      Email: <a href="mailto:info@fisat.ac.in">info@fisat.ac.in</a><br>
+      Phone: [department phone number]
+    </address>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026 Department of Computer Science, FISAT Engineering College</p>
+</footer>
+
+</body>
+</html>
